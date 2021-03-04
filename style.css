@@ -1,10 +1,16 @@
 .container{
     background:lemonchiffon ;
+    padding: 0 10px 5px 10px;
+    border: aliceblue;
     display:grid;
+    margin: 0 auto;
     grid-gap: 50px;
     grid-template-rows: 50px 50px 1fr;
     grid-template-columns: 1fr 1fr;
 
+}
+img{
+    border-radius: 50%;
 }
 .image{
     display:flex;
@@ -16,6 +22,7 @@ span{
 }
 
 .heading{
+    padding: 0 10px 5px 10px ;
     background: azure;
 }
 .info{
@@ -25,19 +32,51 @@ span{
 .education{
     grid-row:2;
     grid-column:1;
+    padding: 5px;
+    margin: 0 auto;
 }
 .contact{
     grid-row:2;
     grid-column:2;
+    margin: 0 auto;
 }
 
 .document{
     grid-row: 3;
     grid-column: 1 /span 2;
+    padding: 5px;
 }
 h1{
     text-decoration-color: #95a777;
 }
 .email{
     text-decoration: underline;
+}
+body {
+    background: cornsilk;
+    padding: 100px 10px 20px 10px;
+    width: 100%;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+p.footer {
+    font-size: 14px;
+    text-align: end;
+    color: black;
+    font-style: italic;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    .education{
+        width:50%;
+    }
+    .document{
+        width: 25%;
+    }
+    .contact{
+        width:33%;
+    }
 }
