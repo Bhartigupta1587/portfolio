@@ -1,5 +1,5 @@
 .container{
-    background:lemonchiffon ;
+    background:lightskyblue;
     padding: 0 10px 5px 10px;
     border: aliceblue;
     display:grid;
@@ -22,6 +22,7 @@ span{
 }
 
 .heading{
+    font-family: "Permanent Marker", cursive;
     padding: 0 10px 5px 10px ;
     background: azure;
 }
@@ -53,7 +54,7 @@ h1{
     text-decoration: underline;
 }
 body {
-    background: cornsilk;
+    background: lightcoral;
     padding: 100px 10px 20px 10px;
     width: 100%;
     position: relative;
